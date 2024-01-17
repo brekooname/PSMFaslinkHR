@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 13, 8.5" name="dcDatabaseFiles">
+  <DataContextMoniker Name="/dcDatabaseFilesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9f05b5ac-e937-4fb7-91f9-eb008ad72adf" absoluteBounds="4.75, 1, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/dcDatabaseFilesDataContext/tbFile" />
+      <nestedChildShapes>
+        <elementListCompartment Id="94e95ee2-9988-4e29-9829-50c0dfaffcd8" absoluteBounds="4.765, 1.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="231d0dea-343e-4dd7-a7ac-6e842793cb4f" absoluteBounds="2.125, 1, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/dcDatabaseFilesDataContext/tbLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9a8d47c4-09db-42f7-8fbf-65cbca3a8849" absoluteBounds="2.1399999999999997, 1.46, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6c534d59-ee42-4f90-a683-45b83ad885a1" absoluteBounds="10.75, 3.75, 2, 1.9631982421874996">
+      <DataClassMoniker Name="/dcDatabaseFilesDataContext/tbLog2_detail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="26c0fb48-8c98-4853-8dfb-e35305829ce3" absoluteBounds="10.765, 4.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a9293037-bacd-467e-bad9-b0c484a068c5" absoluteBounds="5.25, 3.75, 2, 2.1554996744791657">
+      <DataClassMoniker Name="/dcDatabaseFilesDataContext/tbConnectionInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="074b57f7-f913-46eb-b1f8-2b8bf6faf210" absoluteBounds="5.265, 4.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9a076ff9-9a2f-4668-a200-2874e7ddeba2" absoluteBounds="8, 3.375, 2, 2.5401025390625">
+      <DataClassMoniker Name="/dcDatabaseFilesDataContext/tbLog2" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dfdadf74-f218-4533-b64b-7442720ee694" absoluteBounds="8.015, 3.835, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(10 : 4.73159912109375); (10.75 : 4.73159912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dcDatabaseFilesDataContext/tbLog2/tbLog2_tbLog2_detail" />
+      <nodes>
+        <classShapeMoniker Id="9a076ff9-9a2f-4668-a200-2874e7ddeba2" />
+        <classShapeMoniker Id="6c534d59-ee42-4f90-a683-45b83ad885a1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.25 : 4.82774983723958); (8 : 4.82774983723958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dcDatabaseFilesDataContext/tbConnectionInfo/tbConnectionInfo_tbLog2" />
+      <nodes>
+        <classShapeMoniker Id="a9293037-bacd-467e-bad9-b0c484a068c5" />
+        <classShapeMoniker Id="9a076ff9-9a2f-4668-a200-2874e7ddeba2" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+    <style type="text/css">
+        html { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+        *, *:before, *:after { -webkit-box-sizing: inherit; -moz-box-sizing: inherit; box-sizing: inherit; }
+
+        @page { size: A4; margin: 0; }
+        @media print {
+            @page { size: landscape; margin: 0; }
+            html, body { width: 297mm; height: 210mm; margin: 0; padding: 0mm; }
+        }
+
+        html, body { width: 297mm; height: 210mm; margin: 0 auto; padding: 0mm; }
+
+        .pl1 { width: 25%; float:left; overflow: hidden; height: 210mm; }
+        .pl1:nth-child(4n+1) { clear: both; page-break-before:always; page-break-after:always; }
+
+        .bodyPhieu {max-height: 660px; overflow: hidden; margin-bottom: 10px;}
+
+        .pl2 { border: solid 2px #454545; padding: 3px; margin: 15px; }
+        .pl3 { border: solid 1px #808080; font-family: monospace; font-size: 12px; } 
+        .bt { border-bottom: solid 1px #808080; }
+        table { width: 100%; }
+        table.bt { padding: 0 7px 3px 7px; }
+            table.bt.last { border-bottom: none; }
+        .h { color: #000dff; }
+        h4.h { margin: 0; padding: 3px 3px 1px 3px; }
+        h2.h { text-align: center; margin: 5px 0 0 0; }
+        h3.h { text-align: center; margin: 5px 0 0 0; }
+        p.h { text-align: center; margin: 0; font-size: 12px; }
+        .t { } 
+        .tt { text-decoration: underline; font-weight: bold; margin: 10px 7px 3px 7px; }
+        .m { text-align: right; font-weight: bold; padding-left: 10px; width: 100px; }
+        table { width: 100%; }
+        .haicham { white-space: nowrap; margin-right: 1px; padding-left: 0px; }
+            .haicham:before { content: ':'; float: left; }
+        .tit1, .tit2 { font-size: 10px;}
+        .sect1 .tit1 { width: 60px; }
+        .sect1 .tit2 { width: 65px; }
+        .sect2 .tit1 { width: 80px; }
+        .sect2 .tit2 { width: 55px; }
+        .sect3 .tit1 { width: 80px; } 
+        .sect3 .tit2 { width: 55px; }
+        .nowrap { overflow: hidden; white-space: nowrap; }
+
+        .sect1 .cc1 {}
+        .sect1 .cc2 {}
+        .sect1 .cc3 {}
+        .sect1 .cc4 {}
+    </style>
+</head>
+<body>
+
+    <!-- BEGIN In -->
+
+    <div class="pl1">
+        <div class="pl2">
+            <div class="pl3">
+                <h4 class="h bt">{{tenCongTy}}</h4>
+                <h2 class="h t">PHIẾU LƯƠNG</h2>
+                <h3 class="h t">THÁNG {{thang}}</h3>
+
+                <div class="bodyPhieu">
+                    <br />
+                    <table class="bt sect1" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td class="tit1">Họ và tên</td>
+                            <td class="haicham nowrap" colspan="4"><b>{{hoten}}</b></td>
+                        </tr>
+                        <tr>
+                            <td class="tit1">Mã số NV</td>
+                            <td class="haicham nowrap" colspan="4">{{manv}}</td>
+                        </tr>
+                        <tr>
+                            <td class="tit1 cc1">Ngày sinh</td>
+                            <td class="haicham cc2">{{ngaysinh}}</td>
+                            <td class="space"> </td>
+                            <td class="tit2 cc3">Số CMND</td>
+                            <td class="haicham cc4">{{cmnd}}</td>
+                        </tr>
+                        <tr>
+                            <td class="tit2 cc3">Bộ phận</td>
+                            <td class="haicham cc4" colspan="4">{{phongban}}</td>
+                        </tr>
+                    </table>
+
+                    <!-- BEGIN nhom -->
+                    <h3 class="tt">{{nhom_ten}}</h3>
+                    <table class="bt sect5" cellpadding="0" cellspacing="0">
+                        <!-- BEGIN nhom_ct -->
+                        <tr>
+                            <td class="tit1">{{ct_ten}}</td>
+                            <td class="m haicham">{{ct_giatri}}</td>
+                        </tr>
+                        <!-- END nhom_ct -->
+                    </table>
+                    <!-- END nhom -->
+                </div>
+
+                <table class="bt sect5 last" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="tit1" style="font-size:12px; font-weight:bold;">Thực nhận</td>
+                        <td class="m haicham"><span style="font-size:12px; font-weight:bold; color:red;">{{actualBankTransfer}}</span></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- END In -->
+
+</body>
+</html>

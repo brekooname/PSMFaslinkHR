@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<!--
+Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or http://ckeditor.com/license
+-->
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CKEditor Sample</title>
+    <script src="ckeditor.js"></script>
+    <script src="myconfig.js"></script>
+    <script src="myJs.js"></script>
+
+    <style>
+        html, body {
+            margin: 0;
+        }
+    </style>
+
+    <script>
+        function myGetText() { return CKEDITOR.instances.editor.getData(); }
+        function mySetText(s) { CKEDITOR.instances.editor.setData(s); }
+        function myInsertText(s) { CKEDITOR.instances.editor.insertHtml(s); }
+    </script>
+</head>
+<body id="main">
+
+    <div id="editor"></div>
+
+    <script>
+        initSample();
+        setTimeout("editorElement.getEditor().execCommand('maximize');", 550);
+    </script>
+
+</body>
+</html>

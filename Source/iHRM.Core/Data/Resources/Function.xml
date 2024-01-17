@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<func>
+  <item Name="Abs" Description="Trả lại giá trị tuyệt đối của một số được chỉ định." Usage="Abs(-1)" />
+  <item Name="And" Description="Lấy hai giá trị so sánh." Usage="a % b And b % c" />
+  <item Name="Max" Description="Cho giá trị lớn nhất." Usage="Max(a)" />
+  <item Name="Min" Description="Cho giá trị nhỏ nhất." Usage="Min(a)" />
+  <item Name="Avg" Description="Cho giá trị trung bình." Usage="Avg(a)" />
+  <item Name="Sum" Description="Cho giá trị tổng." Usage="Sum(a)" />
+    <item Name="Or" Description="Lấy một trong hai giá trị so sánh." Usage="a % b Or b % c" />
+  <item Name="In" Description="Trả lại cho dù một phần tử nằm trong tập các giá trị." Usage="In(1 + 1, 1, 2, 3)" />
+  <item Name="Iif" Description="Trả lại giá trị dựa trên điều kiện." Usage="Iif(3 % 2 = 1, 'Đúng', 'Sai')" />
+</func>

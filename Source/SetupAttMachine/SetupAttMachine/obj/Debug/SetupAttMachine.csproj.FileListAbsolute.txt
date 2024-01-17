@@ -1,0 +1,110 @@
+D:\PSM_Source\TFS\iHRM_DANU\Source\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe.config
+D:\PSM_Source\TFS\iHRM_DANU\Source\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe
+D:\PSM_Source\TFS\iHRM_DANU\Source\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.pdb
+D:\PSM_Source\TFS\iHRM_DANU\Source\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.csprojResolveAssemblyReference.cache
+D:\PSM_Source\TFS\iHRM_DANU\Source\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.exe
+D:\PSM_Source\TFS\iHRM_DANU\Source\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.pdb
+E:\PSM_Source\PSM_One_Drive\2019-10-15\PSM_HRM_DANU_20191015\PSM_HRM_DANU_20191015\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe.config
+E:\PSM_Source\PSM_One_Drive\2019-10-15\PSM_HRM_DANU_20191015\PSM_HRM_DANU_20191015\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe
+E:\PSM_Source\PSM_One_Drive\2019-10-15\PSM_HRM_DANU_20191015\PSM_HRM_DANU_20191015\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.pdb
+E:\PSM_Source\PSM_One_Drive\2019-10-15\PSM_HRM_DANU_20191015\PSM_HRM_DANU_20191015\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.csprojResolveAssemblyReference.cache
+E:\PSM_Source\PSM_One_Drive\2019-10-15\PSM_HRM_DANU_20191015\PSM_HRM_DANU_20191015\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.exe
+E:\PSM_Source\PSM_One_Drive\2019-10-15\PSM_HRM_DANU_20191015\PSM_HRM_DANU_20191015\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.pdb
+D:\PSM_Source\ONE_DRIVE\2019-10-17\PSM_HRM_DANU_20191016\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe.config
+D:\PSM_Source\ONE_DRIVE\2019-10-17\PSM_HRM_DANU_20191016\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe
+D:\PSM_Source\ONE_DRIVE\2019-10-17\PSM_HRM_DANU_20191016\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.pdb
+D:\PSM_Source\ONE_DRIVE\2019-10-17\PSM_HRM_DANU_20191016\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.csprojResolveAssemblyReference.cache
+D:\PSM_Source\ONE_DRIVE\2019-10-17\PSM_HRM_DANU_20191016\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.exe
+D:\PSM_Source\ONE_DRIVE\2019-10-17\PSM_HRM_DANU_20191016\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.pdb
+D:\PSM_Source\ONE_DRIVE\2019-10-21\PSM_HRM_DANU_20191018\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe.config
+D:\PSM_Source\ONE_DRIVE\2019-10-21\PSM_HRM_DANU_20191018\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe
+D:\PSM_Source\ONE_DRIVE\2019-10-21\PSM_HRM_DANU_20191018\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.pdb
+D:\PSM_Source\ONE_DRIVE\2019-10-21\PSM_HRM_DANU_20191018\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.csprojResolveAssemblyReference.cache
+D:\PSM_Source\ONE_DRIVE\2019-10-21\PSM_HRM_DANU_20191018\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.exe
+D:\PSM_Source\ONE_DRIVE\2019-10-21\PSM_HRM_DANU_20191018\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.pdb
+D:\PSM_Source\ONE_DRIVE\2019-10-22\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe.config
+D:\PSM_Source\ONE_DRIVE\2019-10-22\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe
+D:\PSM_Source\ONE_DRIVE\2019-10-22\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.pdb
+D:\PSM_Source\ONE_DRIVE\2019-10-22\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.exe
+D:\PSM_Source\ONE_DRIVE\2019-10-22\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.pdb
+D:\PSM Toan Cau\DANU\PSM_HRM_DANU_20191024\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe.config
+D:\PSM Toan Cau\DANU\PSM_HRM_DANU_20191024\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe
+D:\PSM Toan Cau\DANU\PSM_HRM_DANU_20191024\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.pdb
+D:\PSM Toan Cau\DANU\PSM_HRM_DANU_20191024\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.csprojResolveAssemblyReference.cache
+D:\PSM Toan Cau\DANU\PSM_HRM_DANU_20191024\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.exe
+D:\PSM Toan Cau\DANU\PSM_HRM_DANU_20191024\PSM_HRM_DANU\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.pdb
+D:\PSM_Source\ONE_DRIVE\2019-11-09\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe.config
+D:\PSM_Source\ONE_DRIVE\2019-11-09\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe
+D:\PSM_Source\ONE_DRIVE\2019-11-09\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.pdb
+D:\PSM_Source\ONE_DRIVE\2019-11-09\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.exe
+D:\PSM_Source\ONE_DRIVE\2019-11-09\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.pdb
+D:\PSM_Source\ONE_DRIVE\2019-11-18\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe.config
+D:\PSM_Source\ONE_DRIVE\2019-11-18\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe
+D:\PSM_Source\ONE_DRIVE\2019-11-18\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.pdb
+D:\PSM_Source\ONE_DRIVE\2019-11-18\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.csprojResolveAssemblyReference.cache
+D:\PSM_Source\ONE_DRIVE\2019-11-18\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.exe
+D:\PSM_Source\ONE_DRIVE\2019-11-18\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.pdb
+E:\PSM_Source\PSM_ONE_DRIVE\2019-12-11\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe.config
+E:\PSM_Source\PSM_ONE_DRIVE\2019-12-11\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe
+E:\PSM_Source\PSM_ONE_DRIVE\2019-12-11\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.pdb
+E:\PSM_Source\PSM_ONE_DRIVE\2019-12-11\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.csprojResolveAssemblyReference.cache
+E:\PSM_Source\PSM_ONE_DRIVE\2019-12-11\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.exe
+E:\PSM_Source\PSM_ONE_DRIVE\2019-12-11\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.pdb
+D:\PSM_Source\ONE_DRIVE\2019-12-25\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe.config
+D:\PSM_Source\ONE_DRIVE\2019-12-25\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe
+D:\PSM_Source\ONE_DRIVE\2019-12-25\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.pdb
+D:\PSM_Source\ONE_DRIVE\2019-12-25\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.csprojResolveAssemblyReference.cache
+D:\PSM_Source\ONE_DRIVE\2019-12-25\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.exe
+D:\PSM_Source\ONE_DRIVE\2019-12-25\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.pdb
+D:\PSM_Source\ONE_DRIVE\2019-12-30\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe.config
+D:\PSM_Source\ONE_DRIVE\2019-12-30\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe
+D:\PSM_Source\ONE_DRIVE\2019-12-30\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.pdb
+D:\PSM_Source\ONE_DRIVE\2019-12-30\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.csprojResolveAssemblyReference.cache
+D:\PSM_Source\ONE_DRIVE\2019-12-30\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.exe
+D:\PSM_Source\ONE_DRIVE\2019-12-30\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.pdb
+E:\PSM_Source\PSM_ONE_DRIVE\2020-01-07\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe.config
+E:\PSM_Source\PSM_ONE_DRIVE\2020-01-07\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe
+E:\PSM_Source\PSM_ONE_DRIVE\2020-01-07\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.pdb
+E:\PSM_Source\PSM_ONE_DRIVE\2020-01-07\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.csprojResolveAssemblyReference.cache
+E:\PSM_Source\PSM_ONE_DRIVE\2020-01-07\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.exe
+E:\PSM_Source\PSM_ONE_DRIVE\2020-01-07\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.pdb
+D:\PSM_Source\ONE_DRIVE\2020-02-03\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe.config
+D:\PSM_Source\ONE_DRIVE\2020-02-03\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe
+D:\PSM_Source\ONE_DRIVE\2020-02-03\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.pdb
+D:\PSM_Source\ONE_DRIVE\2020-02-03\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.csprojResolveAssemblyReference.cache
+D:\PSM_Source\ONE_DRIVE\2020-02-03\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.exe
+D:\PSM_Source\ONE_DRIVE\2020-02-03\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.pdb
+D:\PSM_Source\ONE_DRIVE\2020-02-26\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe.config
+D:\PSM_Source\ONE_DRIVE\2020-02-26\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe
+D:\PSM_Source\ONE_DRIVE\2020-02-26\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.pdb
+D:\PSM_Source\ONE_DRIVE\2020-02-26\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.csprojResolveAssemblyReference.cache
+D:\PSM_Source\ONE_DRIVE\2020-02-26\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.exe
+D:\PSM_Source\ONE_DRIVE\2020-02-26\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.pdb
+D:\PSM_Source\ONE_DRIVE\2020-03-16\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe.config
+D:\PSM_Source\ONE_DRIVE\2020-03-16\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe
+D:\PSM_Source\ONE_DRIVE\2020-03-16\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.pdb
+D:\PSM_Source\ONE_DRIVE\2020-03-16\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.csprojResolveAssemblyReference.cache
+D:\PSM_Source\ONE_DRIVE\2020-03-16\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.exe
+D:\PSM_Source\ONE_DRIVE\2020-03-16\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.pdb
+C:\JUN FULL\NC2020\HAGIA\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe.config
+C:\JUN FULL\NC2020\HAGIA\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe
+C:\JUN FULL\NC2020\HAGIA\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.pdb
+C:\JUN FULL\NC2020\HAGIA\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.csprojResolveAssemblyReference.cache
+C:\JUN FULL\NC2020\HAGIA\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.exe
+C:\JUN FULL\NC2020\HAGIA\PSM_HRM_HAGIA\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.pdb
+C:\JUN FULL\NC2020\DONGHUNG\PSM_HRM_DONGHUNG\Source\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe.config
+C:\JUN FULL\NC2020\DONGHUNG\PSM_HRM_DONGHUNG\Source\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe
+C:\JUN FULL\NC2020\DONGHUNG\PSM_HRM_DONGHUNG\Source\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.pdb
+C:\JUN FULL\NC2020\DONGHUNG\PSM_HRM_DONGHUNG\Source\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.csprojResolveAssemblyReference.cache
+C:\JUN FULL\NC2020\DONGHUNG\PSM_HRM_DONGHUNG\Source\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.exe
+C:\JUN FULL\NC2020\DONGHUNG\PSM_HRM_DONGHUNG\Source\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.pdb
+E:\Source GitHub\PSMDongHungHR\Source\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe.config
+E:\Source GitHub\PSMDongHungHR\Source\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe
+E:\Source GitHub\PSMDongHungHR\Source\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.pdb
+E:\Source GitHub\PSMDongHungHR\Source\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.exe
+E:\Source GitHub\PSMDongHungHR\Source\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.pdb
+E:\Source GitHub\PSMFaslinkHR\Source\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe.config
+E:\Source GitHub\PSMFaslinkHR\Source\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.exe
+E:\Source GitHub\PSMFaslinkHR\Source\SetupAttMachine\SetupAttMachine\bin\Debug\SetupAttMachine.pdb
+E:\Source GitHub\PSMFaslinkHR\Source\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.exe
+E:\Source GitHub\PSMFaslinkHR\Source\SetupAttMachine\SetupAttMachine\obj\Debug\SetupAttMachine.pdb

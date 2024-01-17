@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="sHRM_Fi" Class="dcDatabaseFilesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=115.78.166.179;Initial Catalog=sHRM_Fi;Persist Security Info=True;User ID=sHRM" SettingsObjectName="iHRM.Core.Properties.Settings" SettingsPropertyName="sHRM_FiConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tbFiles" Member="tbFiles">
+    <Type Name="tbFile">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="dataFile" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="duoiFile" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tenFile" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbLogs" Member="tbLogs">
+    <Type Name="tbLog">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="LogTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Action" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Target1" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Target2" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="ActionText" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="TableTarget" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="OperationSystem" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MachineName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DomainName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IPAdress" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="OSVersion" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sHRM_version" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbLog2_detail" Member="tbLog2_details">
+    <Type Name="tbLog2_detail">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="log_id" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="target1" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="target2" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="value1" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="value2" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Association Name="tbLog2_tbLog2_detail" Member="tbLog2" ThisKey="log_id" OtherKey="id" Type="tbLog2" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbConnectionInfo" Member="tbConnectionInfos">
+    <Type Name="tbConnectionInfo">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="IPAdress" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DomainName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MachineName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="OperationSystem" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="OSVersion" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sHRM_version" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="tbConnectionInfo_tbLog2" Member="tbLog2s" ThisKey="id" OtherKey="cid" Type="tbLog2" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbLog2" Member="tbLog2s">
+    <Type Name="tbLog2">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="uid" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="uname" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="cid" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="createDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="action" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="target1" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="target2" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="description" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Association Name="tbLog2_tbLog2_detail" Member="tbLog2_details" ThisKey="id" OtherKey="log_id" Type="tbLog2_detail" />
+      <Association Name="tbConnectionInfo_tbLog2" Member="tbConnectionInfo" ThisKey="cid" OtherKey="id" Type="tbConnectionInfo" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

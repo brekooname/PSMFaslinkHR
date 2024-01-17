@@ -1,0 +1,12 @@
+E:\Source GitHub\PSMDongHungHR\Source\MayChamCong_Manager\AttMachineCore\bin\Debug\AttMachineCore.dll
+E:\Source GitHub\PSMDongHungHR\Source\MayChamCong_Manager\AttMachineCore\bin\Debug\AttMachineCore.pdb
+E:\Source GitHub\PSMDongHungHR\Source\MayChamCong_Manager\AttMachineCore\bin\Debug\Interop.zkemkeeper.dll
+E:\Source GitHub\PSMDongHungHR\Source\MayChamCong_Manager\AttMachineCore\obj\Debug\AttMachineCore.csprojResolveAssemblyReference.cache
+E:\Source GitHub\PSMDongHungHR\Source\MayChamCong_Manager\AttMachineCore\obj\Debug\AttMachineCore.dll
+E:\Source GitHub\PSMDongHungHR\Source\MayChamCong_Manager\AttMachineCore\obj\Debug\AttMachineCore.pdb
+E:\Source GitHub\PSMFaslinkHR\Source\MayChamCong_Manager\AttMachineCore\bin\Debug\AttMachineCore.dll
+E:\Source GitHub\PSMFaslinkHR\Source\MayChamCong_Manager\AttMachineCore\bin\Debug\AttMachineCore.pdb
+E:\Source GitHub\PSMFaslinkHR\Source\MayChamCong_Manager\AttMachineCore\bin\Debug\Interop.zkemkeeper.dll
+E:\Source GitHub\PSMFaslinkHR\Source\MayChamCong_Manager\AttMachineCore\obj\Debug\AttMachineCore.csprojResolveAssemblyReference.cache
+E:\Source GitHub\PSMFaslinkHR\Source\MayChamCong_Manager\AttMachineCore\obj\Debug\AttMachineCore.dll
+E:\Source GitHub\PSMFaslinkHR\Source\MayChamCong_Manager\AttMachineCore\obj\Debug\AttMachineCore.pdb

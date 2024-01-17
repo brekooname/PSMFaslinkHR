@@ -1,0 +1,16 @@
+E:\Source GitHub\PSMDongHungHR\Source\iHRM.Core\Common\bin\Debug\iHRM.Common.dll
+E:\Source GitHub\PSMDongHungHR\Source\iHRM.Core\Common\bin\Debug\iHRM.Common.pdb
+E:\Source GitHub\PSMDongHungHR\Source\iHRM.Core\Common\bin\Debug\Aspose.Cells.dll
+E:\Source GitHub\PSMDongHungHR\Source\iHRM.Core\Common\bin\Debug\Aspose.Words.dll
+E:\Source GitHub\PSMDongHungHR\Source\iHRM.Core\Common\bin\Debug\Microsoft.Exchange.WebServices.Auth.dll
+E:\Source GitHub\PSMDongHungHR\Source\iHRM.Core\Common\obj\Debug\iHRM.Common.csprojResolveAssemblyReference.cache
+E:\Source GitHub\PSMDongHungHR\Source\iHRM.Core\Common\obj\Debug\iHRM.Common.dll
+E:\Source GitHub\PSMDongHungHR\Source\iHRM.Core\Common\obj\Debug\iHRM.Common.pdb
+E:\Source GitHub\PSMFaslinkHR\Source\iHRM.Core\Common\bin\Debug\iHRM.Common.dll
+E:\Source GitHub\PSMFaslinkHR\Source\iHRM.Core\Common\bin\Debug\iHRM.Common.pdb
+E:\Source GitHub\PSMFaslinkHR\Source\iHRM.Core\Common\bin\Debug\Aspose.Cells.dll
+E:\Source GitHub\PSMFaslinkHR\Source\iHRM.Core\Common\bin\Debug\Aspose.Words.dll
+E:\Source GitHub\PSMFaslinkHR\Source\iHRM.Core\Common\bin\Debug\Microsoft.Exchange.WebServices.Auth.dll
+E:\Source GitHub\PSMFaslinkHR\Source\iHRM.Core\Common\obj\Debug\iHRM.Common.csprojResolveAssemblyReference.cache
+E:\Source GitHub\PSMFaslinkHR\Source\iHRM.Core\Common\obj\Debug\iHRM.Common.dll
+E:\Source GitHub\PSMFaslinkHR\Source\iHRM.Core\Common\obj\Debug\iHRM.Common.pdb

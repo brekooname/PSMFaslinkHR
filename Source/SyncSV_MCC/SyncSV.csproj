@@ -1,0 +1,593 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B00C81B0-3BBA-4BC6-8860-2FD3AAB6EA23}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SyncSV</RootNamespace>
+    <AssemblyName>SyncSV</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>1</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>device_manager.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v14.2.Core">
+      <HintPath>bin\x64\Debug\DevExpress.Charts.v14.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v14.2">
+      <HintPath>bin\x64\Debug\DevExpress.Data.v14.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Office.v14.2.Core">
+      <HintPath>bin\x64\Debug\DevExpress.Office.v14.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v14.2.Core">
+      <HintPath>bin\x64\Debug\DevExpress.PivotGrid.v14.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v14.2.Core">
+      <HintPath>bin\x64\Debug\DevExpress.Printing.v14.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v14.2.Core">
+      <HintPath>bin\x64\Debug\DevExpress.RichEdit.v14.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v14.2.Core">
+      <HintPath>bin\x64\Debug\DevExpress.Sparkline.v14.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v14.2">
+      <HintPath>bin\x64\Debug\DevExpress.Utils.v14.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v14.2.UI">
+      <HintPath>bin\x64\Debug\DevExpress.Utils.v14.2.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v14.2">
+      <HintPath>bin\x64\Debug\DevExpress.XtraBars.v14.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v14.2">
+      <HintPath>bin\x64\Debug\DevExpress.XtraCharts.v14.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v14.2.Wizard">
+      <HintPath>bin\x64\Debug\DevExpress.XtraCharts.v14.2.Wizard.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v14.2">
+      <HintPath>bin\x64\Debug\DevExpress.XtraEditors.v14.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v14.2">
+      <HintPath>bin\x64\Debug\DevExpress.XtraGrid.v14.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v14.2">
+      <HintPath>bin\x64\Debug\DevExpress.XtraLayout.v14.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v14.2">
+      <HintPath>bin\x64\Debug\DevExpress.XtraNavBar.v14.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v14.2">
+      <HintPath>bin\x64\Debug\DevExpress.XtraPrinting.v14.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v14.2">
+      <HintPath>bin\x64\Debug\DevExpress.XtraReports.v14.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v14.2.Extensions">
+      <HintPath>bin\x64\Debug\DevExpress.XtraReports.v14.2.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v14.2">
+      <HintPath>bin\x64\Debug\DevExpress.XtraTreeList.v14.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraWizard.v14.2">
+      <HintPath>bin\x64\Debug\DevExpress.XtraWizard.v14.2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\ADOController.cs" />
+    <Compile Include="Business\AllLogic.cs" />
+    <Compile Include="Business\DbHelper.cs" />
+    <Compile Include="Cls\BitHelper.cs" />
+    <Compile Include="Cls\enums.cs" />
+    <Compile Include="Cls\Glass.cs" />
+    <Compile Include="Cls\globall.cs" />
+    <Compile Include="Cls\GridReorderRow.cs" />
+    <Compile Include="Cls\GridSaveLoadLayout.cs" />
+    <Compile Include="Cls\GridSelectionCheckbox.cs" />
+    <Compile Include="Cls\GUIHelper.cs" />
+    <Compile Include="Cls\LinqToTable.cs" />
+    <Compile Include="Cls\MoveForm.cs" />
+    <Compile Include="Cls\PropertyExtension.cs" />
+    <Compile Include="Cls\Tool.cs" />
+    <Compile Include="frmConncetMCC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConncetMCC.Designer.cs">
+      <DependentUpon>frmConncetMCC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConnect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConnect.Designer.cs">
+      <DependentUpon>frmConnect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDetectFingerPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDetectFingerPrint.Designer.cs">
+      <DependentUpon>frmDetectFingerPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\Common\frmConnectFingerPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\Common\frmConnectFingerPrint.designer.cs">
+      <DependentUpon>frmConnectFingerPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\Common\frmConnect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\Common\frmConnect.designer.cs">
+      <DependentUpon>frmConnect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\Common\frmError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\Common\frmError.designer.cs">
+      <DependentUpon>frmError.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\FrmBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FrmBase.Designer.cs">
+      <DependentUpon>FrmBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmcauhinhsomay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmcauhinhsomay.Designer.cs">
+      <DependentUpon>frmcauhinhsomay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="UC\DateChoise.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\DateChoise.designer.cs">
+      <DependentUpon>DateChoise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\ucDlgFingerPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UC\ucDlgFingerPrint.Designer.cs">
+      <DependentUpon>ucDlgFingerPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\ucFingerPrint.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\ucFingerPrint.Designer.cs">
+      <DependentUpon>ucFingerPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UControl\ucAttachFileEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UControl\ucAttachFileEdit.Designer.cs">
+      <DependentUpon>ucAttachFileEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UControl\ucBaseEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UControl\ucBaseEdit.Designer.cs">
+      <DependentUpon>ucBaseEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UControl\ucButtonPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UControl\ucButtonPanel.Designer.cs">
+      <DependentUpon>ucButtonPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UControl\ucCheckEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UControl\ucCheckEdit.Designer.cs">
+      <DependentUpon>ucCheckEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UControl\ucCheckFieldEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UControl\ucCheckFieldEdit.Designer.cs">
+      <DependentUpon>ucCheckFieldEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UControl\ucChooseEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UControl\ucChooseEdit.designer.cs">
+      <DependentUpon>ucChooseEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UControl\ucDate2DataEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UControl\ucDate2DataEdit.Designer.cs">
+      <DependentUpon>ucDate2DataEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UControl\ucDateEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UControl\ucDateEdit.Designer.cs">
+      <DependentUpon>ucDateEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UControl\ucDetailPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UC\UControl\ucDetailPanel.Designer.cs">
+      <DependentUpon>ucDetailPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UControl\ucEnumEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UControl\ucEnumEdit.Designer.cs">
+      <DependentUpon>ucEnumEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UControl\ucFilterPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UC\UControl\ucFilterPanel.Designer.cs">
+      <DependentUpon>ucFilterPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UControl\ucHtmlEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UControl\ucHtmlEdit.Designer.cs">
+      <DependentUpon>ucHtmlEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UControl\ucIdEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UControl\ucIdEdit.Designer.cs">
+      <DependentUpon>ucIdEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UControl\ucMemoEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UControl\ucMemoEdit.Designer.cs">
+      <DependentUpon>ucMemoEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UControl\ucNumberEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UControl\ucNumberEdit.Designer.cs">
+      <DependentUpon>ucNumberEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UControl\ucPasswordEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UControl\ucPasswordEdit.Designer.cs">
+      <DependentUpon>ucPasswordEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UControl\ucPictureEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UControl\ucPictureEdit.Designer.cs">
+      <DependentUpon>ucPictureEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UControl\ucTextEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UControl\ucTextEdit.Designer.cs">
+      <DependentUpon>ucTextEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UControl\ucTitle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UC\UControl\ucTitle.Designer.cs">
+      <DependentUpon>ucTitle.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmConncetMCC.resx">
+      <DependentUpon>frmConncetMCC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConnect.resx">
+      <DependentUpon>frmConnect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDetectFingerPrint.resx">
+      <DependentUpon>frmDetectFingerPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\Common\frmConnectFingerPrint.resx">
+      <DependentUpon>frmConnectFingerPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\Common\frmError.resx">
+      <DependentUpon>frmError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmcauhinhsomay.resx">
+      <DependentUpon>frmcauhinhsomay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="UC\DateChoise.resx">
+      <DependentUpon>DateChoise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\ucDlgFingerPrint.resx">
+      <DependentUpon>ucDlgFingerPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\ucFingerPrint.resx">
+      <DependentUpon>ucFingerPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UControl\ucAttachFileEdit.resx">
+      <DependentUpon>ucAttachFileEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UControl\ucBaseEdit.resx">
+      <DependentUpon>ucBaseEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UControl\ucButtonPanel.resx">
+      <DependentUpon>ucButtonPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UControl\ucCheckEdit.resx">
+      <DependentUpon>ucCheckEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UControl\ucCheckFieldEdit.resx">
+      <DependentUpon>ucCheckFieldEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UControl\ucChooseEdit.resx">
+      <DependentUpon>ucChooseEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UControl\ucDate2DataEdit.resx">
+      <DependentUpon>ucDate2DataEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UControl\ucDateEdit.resx">
+      <DependentUpon>ucDateEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UControl\ucDetailPanel.resx">
+      <DependentUpon>ucDetailPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UControl\ucEnumEdit.resx">
+      <DependentUpon>ucEnumEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UControl\ucHtmlEdit.resx">
+      <DependentUpon>ucHtmlEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UControl\ucIdEdit.resx">
+      <DependentUpon>ucIdEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UControl\ucMemoEdit.resx">
+      <DependentUpon>ucMemoEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UControl\ucNumberEdit.resx">
+      <DependentUpon>ucNumberEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UControl\ucPasswordEdit.resx">
+      <DependentUpon>ucPasswordEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UControl\ucPictureEdit.resx">
+      <DependentUpon>ucPictureEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UControl\ucTextEdit.resx">
+      <DependentUpon>ucTextEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <EmbeddedResource Include="Frm\Common\frmConnect.resx">
+      <DependentUpon>frmConnect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FrmBase.resx">
+      <DependentUpon>FrmBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="UC\UControl\ucButtonPanel.resx.bak" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnAdd.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnChoose.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnDelete.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnEdit.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnExit.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnExport.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnFind.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnImport.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnPrint.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnRefresh.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnSave.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet-black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet-green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet-red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico20\ico20_arrow_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico20\ico20_comment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico20\ico20_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico20\ico20_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico20\ico20_error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico20\ico20_image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico20\ico20_info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico20\ico20_lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico20\ico20_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico20\ico20_plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico20\ico20_question.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico20\ico20_rss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico20\ico20_stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico20\ico20_tick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="device_manager.ico" />
+    <None Include="Resources\fingerPrint.gif" />
+    <None Include="Resources\finger_print2.png" />
+    <None Include="Resources\finger_print1.png" />
+    <None Include="Resources\finger_print.png" />
+    <None Include="Resources\logo-fitech-ngang.png" />
+    <None Include="Resources\logo-fitech-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="zkemkeeper">
+      <Guid>{FE9DED34-E159-408E-8490-B720A5E632C7}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

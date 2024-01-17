@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SyncSV.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="frmLogin_saveId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">kr</Value>
+    </Setting>
+    <Setting Name="frmLogin_savePw" Type="System.String" Scope="User">
+      <Value Profile="(Default)">KAe8ifzdK58=</Value>
+    </Setting>
+    <Setting Name="frmLogin_autoLog" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="frmTaiSan_grvLayout" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="frmGenExcel_autoSaveAt" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="frmGenExcel_autoRun" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="FPstrcnn" Type="System.String" Scope="User">
+      <Value Profile="(Default)">LAN;192.168.1.201;4370</Value>
+    </Setting>
+    <Setting Name="frmHoSo_grvLayout" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FP_soMay" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="strcnn" Type="System.String" Scope="User">
+      <Value Profile="(Default)">10.0.0.15;sHRM_QT;sa;PSM@PEACE2019~</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
